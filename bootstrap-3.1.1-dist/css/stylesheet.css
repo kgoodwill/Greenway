@@ -7,23 +7,16 @@
   border-radius: 15px;
 }
 
-.segment_one{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+.image img{
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 250px;
+  width: 400px;
 
 }
 
-.segment_two{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.segment_three{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+.image figcaption{
+  margin-left: 40%;
 }
 
 .title{
@@ -42,6 +35,88 @@
   padding: 1em;
   border-color: #000000;
   border: 2px;
+}
+
+.right{
+  display: block;
+  float: right;
+  width: 40%;
+  max-width: 50%;
+}
+
+.row-even{
+  float:left;
+}
+
+.row-even img{
+    float:right;
+    max-width: 40%;
+}
+.row-even p{
+  max-width: 40%;
+}
+
+.row-even ul{
+  float: left;
+  max-width: 40%;
+}
+
+.row-even li{
+  float: left;
+  max-width: 40%;
+}
+
+.row-even h5{
+  float: left;
+  max-width: 40%;
+}
+
+.row-even h6{
+  float: left;
+  max-width: 40%;
+}
+
+.row-odd table{
+  float:right;
+  max-width: 40%;
+}
+
+.row-odd td{
+  position: relative;
+}
+
+.row-odd img{
+  float: left;
+  max-width: 40%;
+}
+.row-odd p, ul, li, h5, h6{
+  float:right;
+  max-width: 40%;
+}
+
+.row-odd p{
+  float:right;
+  max-width: 40%;
+}
+
+.row-odd ul{
+  float: right;
+  max-width: 40%;
+}
+
+.row-odd li{
+  float: right;
+  max-width: 40%;
+}
+
+.row-odd h5{
+  float: right;
+  max-width: 40%;
+}
+
+.row-odd h6{
+  float: right;
+  max-width: 40%;
 }
 
 /*--Custom Navbar--*/
