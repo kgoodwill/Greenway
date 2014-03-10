@@ -10,9 +10,9 @@ body{
 #map {
   display: block;
   margin: 30px auto 30px auto;
-  width:100%;
   margin-left: auto;
   margin-right: auto;
+  background-size:cover;
   border-radius: 15px;
 }
 
@@ -85,23 +85,34 @@ body{
   float: left;
   max-width: 40%;
 }*/
-
+.row-odd table{
+  width:95%;
+}
+/**
 .row-odd table{
   float:right;
   max-width: 75%;
+}**/
+.row-odd table tr td{
+  font-family:sans-serif;
+  padding-left:1em;
+  padding-bottom:.1em;
 }
-
+/**
 .row-odd td{
   position: relative;
   font-family: sans-serif;
 }
+**/
 
 .row-odd img{
   float: left;
-  max-width: 75%;
+  max-width: 90%;
   border-radius: 10px;
   box-shadow: 3px 3px 5px #192927;
 }
+/**
+
 
 .row-odd p{
   float:left;
@@ -118,18 +129,18 @@ body{
   float: right;
   max-width: 40%;
 }
-
+*/
 /*.row-odd h5{
   float: left;
   max-width: 40%;
   display: block;
 }*/
-
+/*
 .row-odd h6{
   float: right;
   max-width: 40%;
 }
-
+*/
 /*--Custom Navbar--*/
 .navbar-default {
   background-color: #274822;
