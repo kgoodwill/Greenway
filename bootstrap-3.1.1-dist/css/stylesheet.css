@@ -1,4 +1,12 @@
 /*Custom Stylesheet to Work in Conjunction with Bootstrap*/
+* {
+  font-family: sans-serif;
+}
+
+body{
+  font-family: sans-serif;
+}
+
 #map {
   display: block;
   margin: 30px auto 30px auto;
@@ -12,7 +20,7 @@
   margin-right: 15px;
   height: 250px;
   width: 400px;
-
+  box-shadow: 3px 3px 5px #192927;
 }
 
 .image figcaption{
@@ -50,10 +58,11 @@
 
 .row-even img{
     float:right;
-    max-width: 40%;
+    max-width: 75%;
 }
 .row-even p{
   max-width: 40%;
+  font-family: sans-serif;
 }
 
 .row-even ul{
@@ -67,36 +76,36 @@
 }
 
 .row-even h5{
-  float: left;
+  float: right;
   max-width: 40%;
 }
 
-.row-even h6{
+/*.row-even h6{
   float: left;
   max-width: 40%;
-}
+}*/
 
 .row-odd table{
   float:right;
-  max-width: 40%;
+  max-width: 75%;
 }
 
 .row-odd td{
   position: relative;
+  font-family: sans-serif;
 }
 
 .row-odd img{
   float: left;
-  max-width: 40%;
-}
-.row-odd p, ul, li, h5, h6{
-  float:right;
-  max-width: 40%;
+  max-width: 75%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #192927;
 }
 
 .row-odd p{
-  float:right;
-  max-width: 40%;
+  float:left;
+  max-width: 75%;
+  padding: 10px;
 }
 
 .row-odd ul{
@@ -109,10 +118,11 @@
   max-width: 40%;
 }
 
-.row-odd h5{
-  float: right;
+/*.row-odd h5{
+  float: left;
   max-width: 40%;
-}
+  display: block;
+}*/
 
 .row-odd h6{
   float: right;
