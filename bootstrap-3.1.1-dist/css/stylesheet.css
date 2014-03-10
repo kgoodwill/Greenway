@@ -52,7 +52,7 @@ body{
   width: 40%;
   max-width: 50%;
 }
-
+/**j
 .row-even{
   float:left;
 }
@@ -80,11 +80,27 @@ body{
   float: right;
   max-width: 40%;
 }
-
+**/
 /*.row-even h6{
   float: left;
   max-width: 40%;
 }*/
+
+.row-even table{
+  width:95%;
+  margin-bottom:1em;
+}
+.row-even table tr td{
+  font-family:sans-serif;
+  padding-left:1em;
+  padding-bottom:.1em;
+}
+.row-even img{
+  float: left;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #192927;
+}
 .row-odd table{
   width:95%;
 }
