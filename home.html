@@ -60,7 +60,7 @@
 		  <div class = "panel panel-default">
           <div class = "panel-heading">
             <h4 class = "panel-title"><a data-toggle='collapse' data-parent = '#accordion' href="#collapseOne">Binghamton Greenway</a></h4>
-          </div>
+          </div> <!-- .panel-heading -->
           <div id='collapseOne' class = 'panel-collapse collapse in'>
             <div class = "panel-body">
               <h5>What is the purpose of the Greenway?</h5>
@@ -79,13 +79,13 @@
                 <li>Clubhouse Road to Binghamton University</li>
               </ul>
               <hr>
-            </div>
-          </div>
-      </div>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseOne -->
+      </div> <!-- .panel -->
       <div class = "panel panel-default">
         <div class = "panel-heading">
           <h4 class = "panel-title"><a data-toggle = 'collapse' data-parent = '#accordion' href="#collapseTwo">Segment One: South Washington Street to MacArthur School and Park</a></h4>
-        </div>
+        </div> <!-- .panel-heading -->
         <div id = 'collapseTwo' class = 'panel-collapse collapse'>
           <div class = "panel-body">
             <p>There are 3 options for this section of the Greenway</p>
@@ -95,232 +95,156 @@
                   <a href = "#"><img src="img/Seg1/first_segment_sim_overpass.png" alt="Overpass Simulation"></a>
                   <figcaption><a href="#seg1">Overpass</a></figcaption>
                 </figure>
-              </div>
+              </div> <!-- .col-md-4 -->
               <div class = "col-md-4 image">
                 <figure>
                   <a href="#"><img src="img/Seg1/first_segment_underpass_sim.png" alt="Underpass Simulation"></a>
                   <figcaption><a href="#">Underpass</a></figcaption>
                 </figure>
-              </div>
+              </div> <!-- .col-md-4 -->
               <div class = "col-md-4 image">
                 <figure>
                   <a href="#"><img src="img/Seg1/first_segment_graphic_atgrade.png" alt="At Grade Simulation"></a>
                   <figcaption><a href="#">At Grade</a></figcaption>
                 </figure>
-              </div>
-            </div>
+              </div> <!-- .col-md-4 -->
+            </div> <!-- .row -->
             <hr>
             <div class = "row-odd clearfix">
-            <!--  <div class = "col-md-6">
-                <h5 id = "seg1">Overpass</h5>
-                <img src='img/Seg1/first_segment_map_overpass.png' alt="Overpass Map">
-                <p>This option proposes an overpass that will allow the Greenway to proceed over Vestal Parkway.</p>
-              </div>-->
-          <!--k    <div class = "col-md-6">
-                <div class = "table-responsive">
-                  <table class = "table-bordered">
-                    <tr>
-                      <td><b>Pros:</b></td>
-                      <td><b>Cons:</b></td>
-                    </tr>
-                    <tr>
-                      <td>Separates trail users from motor vechicle traffic</td>
-                      <td>Grade may be difficult for some trail users</td>
-                    </tr>
-                    <tr>
-                      <td>Highly Visible</td>
-                      <td>Significantly more expensive to build than any other alternative</td>
-                    </tr>
-                    <tr>
-                      <td>Identifies trail location</td>
-                      <td>The most cost-effective prefabricated bridge options are not the most aesthetic</td>
-                    </tr>
-                    <tr>
-                      <td>Enhances safety</td>
-                      <td>Expensive to maintain over the long run</td>
-                    </tr>
-                    <tr>
-                      <td>No affect on motor vehicle traffic</td>
-                      <td></td>
-                    </tr>
-                  </table>
-                </div>
-                <h6>Overall Estimate: $2.75 million</h6>
-              </div>
-            </div>
--->
-          <table>
-            <tr>
-              <td><h5 id ="set1">Overpass</h5></td>
-              <td>This option proposes an overpass that will allow the Greenway to proceed over Vestal Parkway</td> 
-            </tr>
-            <tr>
-              <td><img src='img/Seg1/first_segment_map_overpass.png' alt="Overpass Map"></td>
-              <td><table class="table table-condensed" id="hello">  
-              <tr>
-                <td><b>Pros:</b></td>
-                <td><b>Cons:</b></td>
-              </tr>
-              <tr>
-                <td>Seperates trail form motor vehcle traffic</td>
-                <td>Grade maybe difficult for some trail users</td>
-              </tr>
-              <tr>
-                <td>Highly Visible</td>
-                <td>Significantly more expensive to build than any other alternative</td>
-              </tr>
-              <tr>
-                 <td>Identifies trail location</td>
-                  <td>The most cost effective prefabricated bridge options are not the most aesthetic</td>
-               </tr>
-                  <tr>
-                  <td>Enhances safety</td>
-                 <td>Expensive to maintain over the long run</td>
+              <table>
+                <tr>
+                  <td><h5 id ="set1">Overpass</h5></td>
+                  <td>This option proposes an overpass that will allow the Greenway to proceed over Vestal Parkway</td> 
                 </tr>
                 <tr>
-                  <td>No affect on motor vehicle traffic</td>
-                 <td></td>
+                  <td><img src='img/Seg1/first_segment_map_overpass.png' alt="Overpass Map"></td>
+                  <td>
+                    <table class="table table-condensed" id="hello">  
+                      <tr>
+                        <td><b>Pros:</b></td>
+                        <td><b>Cons:</b></td>
+                      </tr>
+                      <tr>
+                        <td>Seperates trail form motor vehcle traffic</td>
+                        <td>Grade maybe difficult for some trail users</td>
+                      </tr>
+                      <tr>
+                        <td>Highly Visible</td>
+                        <td>Significantly more expensive to build than any other alternative</td>
+                      </tr>
+                      <tr>
+                        <td>Identifies trail location</td>
+                        <td>The most cost effective prefabricated bridge options are not the most aesthetic</td>
+                       </tr>
+                        <tr>
+                          <td>Enhances safety</td>
+                          <td>Expensive to maintain over the long run</td>
+                        </tr>
+                        <tr>
+                          <td>No affect on motor vehicle traffic</td>
+                          <td></td>
+                        </tr>
+                      </table>
+                    </td>
                 </tr>
-              </table></td>
-            </tr>
-            <tr><td>Overall Estimate:$2.75 million</td></tr>
-          </table>
-          </div>
+                <tr>
+                  <td>Overall Estimate:$2.75 million</td>
+                </tr>
+              </table>
+            </div> <!-- .row-odd -->
             <hr>
             <div class = "row-even clearfix">
-            <!--  <h5>Underpass</h5>
-              <br>
-              <img src='img/Seg1/first_segment_map_underpass.png' alt="Underpass Map">
-              <p>This option proposes an underpass that will allow the Greenway to pass under Vestal Parkway.</p>
-              <br>
-              <p>Pros:</p>
-              <ul>
-                <li>Trail is closer to the river than other alternatives</li>
-                <li>Trail is buffered from traffic State Route 434</li>
-                <li>Aesthetics of site adjacent to river</li>
-                <li>It will not affect traffic on State Route 434</li>
-              </ul>
-              <br>
-              <p>Cons:</p>
-              <ul>
-                <li>Involvement with State Route 434 embankment</li>
-                <li>Grade on the south approach may be difficult for some trail users</li>
-                <li>Lower visibility than other alternatives</li>
-                <li>Security and vandalism concerns</li>
-                <li>Trail will be "hidden" from State Route 434</li>
-                <li>Could incur maintanence costs not associated with other issues</li>
-              </ul>
-              <br>
-              <h6>Overall Estimate: $1.1 million</h6>
-            -->
-            <table>
-              <tr>
-                <td>This option proposes an underpass that will allow the Greenway to pass under Vestal Parkway.</td>
-                <td><h5>Underpass</h5>
-                </td>
-              <tr>
-                <td><table class="table table-condensed">
-                  <tr>
-                    <td>Pros</td>
-                    <td>Cons</td>
-                  </tr> 
-                  <tr>
-                    <td>Trail is closer to the river than other alternatives</td>
-                  <td>Involvement with State Route 434 embankment</td>
-                  </tr>
-                 <tr>
-                   <td>Trail is buffered from traffic State Route 434</td>
-                  <td>Grade on south approach may be difficult for some trail users</td>
-                  </tr>
-                 <tr>
-                  <td>Aesthetics of site adjacent to river</td>
-                  <td>Lower visibility than other alternative</td>
-                 </tr>
-                 <tr>
-                  <td>It will not affect traffic on State Route 434</td>
-                  <td>Security and vandalism concerns</td>  
+              <table>
+                <tr>
+                  <td>This option proposes an underpass that will allow the Greenway to pass under Vestal Parkway.</td>
+                  <td><h5>Underpass</h5></td>
+                <tr>
+                  <td>
+                    <table class="table table-condensed">
+                      <tr>
+                        <td>Pros</td>
+                        <td>Cons</td>
+                      </tr> 
+                      <tr>
+                        <td>Trail is closer to the river than other alternatives</td>
+                        <td>Involvement with State Route 434 embankment</td>
+                      </tr>
+                      <tr>
+                        <td>Trail is buffered from traffic State Route 434</td>
+                        <td>Grade on south approach may be difficult for some trail users</td>
+                      </tr>
+                      <tr>
+                        <td>Aesthetics of site adjacent to river</td>
+                        <td>Lower visibility than other alternative</td>
+                      </tr>
+                      <tr>
+                        <td>It will not affect traffic on State Route 434</td>
+                        <td>Security and vandalism concerns</td>  
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Could incur maintanence costs not associated with other issues</td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td><img src='img/Seg1/first_segment_map_underpass.png' alt="Underpass Map"></td>
                 </tr>
                 <tr>
                   <td></td>
-                  <td>Could incur maintanence costs not associated with other issues</td>
+                  <td>Overall Estimate: $1.1million</td>
                 </tr>
-
-                </table>
-                <td><img src='img/Seg1/first_segment_map_underpass.png' alt="Underpass Map"></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Overall Estimate: $1.1million</td></tr>             
-            </div>
-            
+              </table>
+            </div> <!-- .row-even -->
             <hr>
-            <br>
-            <br>
-            <div class = "row-odd clearfix">
-            <!--  <h5>At Grade</h5>
-              <img src='img/Seg1/first_segment_map_atgrade.png' alt="At Grade Map">
-              <p>This option proposes an at grade road crossing for the Greenway to cross State Route 434</p>
-             <p>Pros:</p>
-        
-              <ul>
-                <li>Lowest construction and maintenance cost</li>
-                <li>No added security concerns</li>
-                <li>No steep approach or descent</li>
-              </ul>
-
-              <p>Cons:</p>
-              <ul>
-                <li>Least safe for trail users</li>
-                <li>It will affect traffic on State Route 434</li>
-                <li>Doesn't completely separate trail users from motor vechicles creating a conflict point</li>
-                <li>State Route 434 is a high speed facility</li>
-                <li>Snow removal on median crossover may be a problem</li>
-              </ul>
-              <h6>Overall Estimate: $0.8 million</h6>i-->                       <table> 
-              <tr>
-                <td>At Grade</td>
-                <td>This option proposes an at grade road crossing for the Greenway to cross State Route 434</td>
-              </tr>
-              <tr>
-                <td><img src='img/Seg1/first_segment_map_atgrade.png' alt="At Grade Map"></td>
-                <td><table class="table table-condensed" >
-                  <tr>
-                    <td>Pros</td>
-                    <td>Cons</td>
-                  </tr>
-                  <tr>
-                    <td>Lowest Construction and maintenance cost</td>
-                   <td>Least safe for trial users</td>
-                  </tr>
-                  <tr> 
-                   <td>No added security concerns</td>
-                   <td>It will affect traffic on State Route 434</td>
-                  </tr>
-                  <tr>
-                    <td>No Steep approach or descents</td>
-                    <td>Doesn't completely seperate trail users from motor vehicles creating a conflict point</td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>State 434 is a high speed facility</td>
-                   </tr> 
-               <tr>
-                <td></td>
-                <td>Snow Removal maybe an issue</td>
-              </tr> 
-                </table></td>
-              </tr>        
-            </table>
-            </div> 
-
-
-          </div>
-        </div>
-      </div>
+            <div class = "row-odd clearfix">                      
+              <table> 
+                <tr>
+                  <td>At Grade</td>
+                  <td>This option proposes an at grade road crossing for the Greenway to cross State Route 434</td>
+                </tr>
+                <tr>
+                  <td><img src='img/Seg1/first_segment_map_atgrade.png' alt="At Grade Map"></td>
+                  <td>
+                    <table class="table table-condensed" >
+                      <tr>
+                        <td>Pros</td>
+                        <td>Cons</td>
+                      </tr>
+                      <tr>
+                        <td>Lowest Construction and maintenance cost</td>
+                        <td>Least safe for trial users</td>
+                      </tr>
+                      <tr> 
+                        <td>No added security concerns</td>
+                        <td>It will affect traffic on State Route 434</td>
+                      </tr>
+                      <tr>
+                        <td>No Steep approach or descents</td>
+                        <td>Doesn't completely seperate trail users from motor vehicles creating a conflict point</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>State 434 is a high speed facility</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Snow Removal maybe an issue</td>
+                      </tr> 
+                    </table>
+                  </td>
+                </tr> 
+                <tr>
+                  <td>Overall Estimate: $0.8 million</td>
+                </tr>       
+              </table>
+            </div> <!-- .row-odd -->
+          </div> <!-- .panel-body -->
+        </div> <!-- #collapseTwo -->
+      </div> <!-- .panel -->
       <div class = "panel panel-default">
         <div class = "panel-heading">
           <h4 class = "panel-title"><a data-toggle = 'collapse' data-parent = '#accordion' href="#collapseThree">Segment Two</a></h4>
-        </div>
+        </div> <!-- .panel-heading -->
         <div id = 'collapseThree' class = 'panel-collapse collapse'>
           <div class = 'panel-body'> Segment Two Content Here</div>
         </div>
