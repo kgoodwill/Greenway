@@ -22,6 +22,7 @@ body{
   height: 250px;
   width: 400px;
   box-shadow: 3px 3px 5px #192927;
+  border-radius: 10px;
 }
 
 .image figcaption{
