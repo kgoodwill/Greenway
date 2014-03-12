@@ -87,12 +87,12 @@ body{
 }*/
 
 .row-even table{
-  width:95%;
+  width:87%;
   margin-bottom:1em;
 }
 .row-even table tr td{
   font-family:sans-serif;
-  padding-left:1em;
+  padding-right:.5em;
   padding-bottom:.1em;
 }
 .row-even img{
