@@ -1,11 +1,11 @@
 /*Custom Stylesheet to Work in Conjunction with Bootstrap*/
-* {
+/** {
   font-family: sans-serif;
-}
+}*/
 
-body{
+/*body{
   font-family: sans-serif;
-}
+}*/
 
 #map {
   display: block;
@@ -157,7 +157,11 @@ body{
   float: right;
   max-width: 40%;
 }
+
 */
+.pic_title {
+  font-size: 32px;
+}
 /*--Custom Navbar--*/
 .navbar-default {
   background-color: #274822;
