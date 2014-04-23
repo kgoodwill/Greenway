@@ -1,0 +1,27 @@
+/*"It's the About Page stylesheet, bitch!"*/
+
+*{
+  font-family: sans-serif;
+}
+
+body{
+  font-family: sans-serif;
+  }
+
+
+.title1{
+  color: #030;
+  margin-right;
+}
+
+p{
+  font-family: arial;
+  float: left;
+  text-align: left;
+  color: #0000FF;
+  text-indent: 20px;
+}
+
+
+  
+  
